@@ -13,8 +13,8 @@ print("""
 ██████╔╝██║░░░░░██║░░██║██║░╚═╝░██║██║░░░░░╚█████╔╝██╔╝╚██╗
 ╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░░╚════╝░╚═╝░░╚═╝""")
 print("""Recuerda colocar un correo que tenga activa la opcion
-de fuentes de envio descoonocidas para lograr enviar el mensaje, este tiene que ser tuyo
-el limite de envio es de 500 mensaje por dia haci que no envies mas de 500, D1V13RT3T3""")
+de fuentes de envio descoonocidas para realizar el envio
+Ademas solo tienes un limite de envio de 500 mensajes, D1V13RT3T3""")
 
 rt = str(input("encabezado: ")) 
 tr = str(input("password: "))
