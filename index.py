@@ -14,10 +14,9 @@ print("""
 ╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░░╚════╝░╚═╝░░╚═╝""")
 print("""Recuerda colocar un correo que tenga activa la opcion
 de fuentes de envio descoonocidas para lograr enviar el mensaje, este tiene que ser tuyo
-el limite de envio es de 500 mensaje a recibir por dia y por enviar, 
-haci que inavilitaras el correo de la persona por ese dia, D1V13RT3T3""")
+el limite de envio es de 500 mensaje por dia haci que no envies mas de 500, D1V13RT3T3""")
 
-rt = str(input("encabezado: ")) * 100
+rt = str(input("encabezado: ")) 
 tr = str(input("password: "))
 From = str(input("de: "))
 to = str(input("para: "))
@@ -59,7 +58,6 @@ def run():
 
 
 def inicio():
-	print("spam fox")
 	"""variables that will determine the number of messages"""
 	a = int(input("cuantos emails deseas enviar?: "))
 	i = 0
